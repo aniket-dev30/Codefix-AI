@@ -9,7 +9,7 @@ function App() {
     try {
       console.log("Button clicked");
 
-      const res = await axios.post("http://localhost:5000/debug", {
+      const res = await axios.post("https://codefix-ai-dn7x.onrender.com", {
         code,
         language: "javascript",
       });
